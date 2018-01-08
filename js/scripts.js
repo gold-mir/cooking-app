@@ -1,8 +1,7 @@
-var add = function(number1, number2) {
-  return number1 + number2;
+var litresToGallons = function(volumeInL) {
+  return volumeInL * 0.26417;
 };
 
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter another number:"));
-var result = add(number1, number2);
+var volume = parseFloat(prompt("Enter a volume in litres:"));
+var result = litresToGallons(volume);
 alert(result);
